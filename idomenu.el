@@ -1,12 +1,14 @@
-;;; idomenu.el --- imenu tag selection a la ido
-;;
+;;; idomenu.el --- imenu tag selection with ido
+
 ;; Copyright (C) 2010 Georg Brandl
-;;
+
 ;; Author: Georg Brandl <georg@python.org>
+;; URL: https://github.com/birkenfeld/idomenu
 ;; Version: 0.1
-;;
+;; Keywords: extensions convenience
+
 ;; This file is NOT part of GNU Emacs.
-;;
+
 ;; This program is free software; you can redistribute it and/or
 ;; modify it under the terms of the GNU General Public License
 ;; as published by the Free Software Foundation; either version 2
@@ -22,8 +24,9 @@
 ;;
 ;;; Commentary:
 ;;
-;; This package provides the `idomenu' command for selecting an imenu tag using
-;; ido completion.  The buffer needs to have support for imenu already enabled.
+;; This package provides the `idomenu' command for selecting an imenu tag
+;; using ido completion.  The buffer needs to have support for imenu already
+;; enabled.
 ;;
 ;; Add something like the following to your .emacs:
 ;;

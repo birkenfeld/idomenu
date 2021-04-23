@@ -68,7 +68,8 @@
   "Switch to a buffer-local tag from Imenu via Ido."
   (interactive)
   ;; ido initialization
-  (ido-init-completion-maps)
+  ;; (when (version< emacs-version "25.1")
+  ;;   (ido-init-completion-maps))
   (add-hook 'minibuffer-setup-hook 'ido-minibuffer-setup)
   (add-hook 'choose-completion-string-functions 'ido-choose-completion-string)
   (add-hook 'kill-emacs-hook 'ido-kill-emacs-hook)
